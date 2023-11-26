@@ -1,1 +1,3 @@
-# S1-L5
+la richiesta HTTP presenta un formato composto da header e corpo del messaggio, non prevedendo una chiave di cifratura, le informazioni del traffico di rete instaurato sono visivili in chiaro nella sezione 'line-based text date', è possibile inoltre analizzare la risposta da parte del server visualizzando la prima riga della risposta, la cosidetta 'riga di stato', nel nostro caso l'informazione si identifica con il codice '200 OK' che sta ad indicare un riscontro positivo sulla risorsa richiesta.
+nella fattispecie della richiesta HTTPS notiamo la presenza del protocollo TLS sicuro e cifrato, la cifratura del canale prevede la negoziazione fra client e server dell'algoritmo di cifratura e il successivo scambio di chiavi come evidenziato nella sezione 'transport layer security'.
+le richieste HTTP vengono inoltrate attraverso la porta 80 dei servizi standard, mentre le richieste HTTPS utilizzano la porta 443.
